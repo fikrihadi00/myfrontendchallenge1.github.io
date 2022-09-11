@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+.container {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  padding: 20px;
+}
+.card {
+  padding: 18px;
+  padding-bottom: 26px;
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+}
+.card img {
+  max-width: 100%;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.card h3 {
+  color: hsl(218, 44%, 22%);
+  font-size: 1.3em;
+  margin-top: 16px;
+  font-weight: 700;
+}
+
+.card p {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  padding: 12px;
+  font-weight: 400;
+}
+.attribution {
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(220, 15%, 55%);
+}
+.attribution a:hover {
+  color: hsl(218, 44%, 22%);
+  transition: 400ms;
+  -webkit-transition: 400ms;
+  -moz-transition: 400ms;
+  -ms-transition: 400ms;
+  -o-transition: 400ms;
+}
